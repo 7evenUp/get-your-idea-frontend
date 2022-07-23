@@ -1,0 +1,44 @@
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.searchBar label {
+  font-size: 24px;
+}
+
+.inputWrapper {
+  padding: 8px 16px;
+  border-radius: 15px;
+  background-color: #EEEEEE;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  font-size: 20px;
+  padding: 16px;
+  flex: 1;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.input::placeholder {
+  color: #888888;
+}
+
+.inputWrapper span {
+  width: 1px;
+  height: 50px;
+  margin-right: 16px;
+  background-color: #888888;
+}
+
+.inputWrapper button {
+  border: none;
+  outline: none;
+}
